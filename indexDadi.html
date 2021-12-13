@@ -9,13 +9,24 @@
 </head>
 <body>
 
-    <div class="contenitore">
+    <div id="contenitore">
         <input onclick="tiraDadi()" type="button" value="TIRA DADI!" id="">
-        <p id="dadoUtente">Il tuo Dado : <span id="punteggioUtente">2</span></p>
-        <p id="dadoComputer">Il dado dell'Avversario : <span id="punteggioComputer">2</span></p>
+        <input onclick="attivaVersione2()" type="button" value="versione Migliorata" id="">
+        <p id="dadoUtente1">Il tuo Dado : <span id="punteggioUtente">2</span></p>
+        <p id="dadoComputer1">Il dado dell'Avversario : <span id="punteggioComputer">2</span></p>
         <p id="esitoTiro"></p>
     </div>
     
+    <div id="contenitore2">
+        <h1>Gioco dei dadi</h1>
+        <input onclick="tiraDadiMigliore()" type="button" value="TIRA!">
+        <div id="contenitoreDadi">
+            <div id="dadoUtente">
+            </div>
+            <div id="dadoComputer"></div>
+        </div>
+        <h2 id="esitoPartita"></h2>
+    </div>
     
     <script text="text/javascript" src="scriptDadi.js"></script>
 </body>

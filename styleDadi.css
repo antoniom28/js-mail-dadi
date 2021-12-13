@@ -1,0 +1,34 @@
+#contenitore2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+div#contenitoreDadi {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#dadoUtente,
+#dadoComputer{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+}
+
+[id*="faccia"] {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+}
+
+#faccia1,
+#faccia1-computer{
+background-size: 90px 90px!important;
+background-repeat: no-repeat;
+background-position: 5px;
+}
